@@ -42,7 +42,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,kivymd,boto3,plyer,pymysql,botocore==1.33.9,certifi==2023.11.17,charset-normalizer==3.3.2,jmespath==1.0.1,python-dateutil==2.8.2,docutils==0.20.1,idna==3.6,jmespath==1.0.1,pillow,Pygments==2.17.2,requests==2.31.0,s3transfer==0.8.2,urllib3==2.0.7
+requirements = python3,kivy,kivymd,boto3,plyer,pymysql,botocore==1.33.9,certifi==2023.11.17,charset-normalizer==3.3.2,docutils==0.20.1,idna==3.6,jmespath==1.0.1,jmespath==1.0.1,Kivy-Garden==0.1.5,pillow,python-dateutil==2.8.2,requests==2.31.0,s3transfer==0.8.2,v,urllib3==2.0.7,Pygments==2.17.2
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
