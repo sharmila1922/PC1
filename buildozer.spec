@@ -42,7 +42,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,kivymd,boto3,plyer,pymysql,botocore==1.33.9,certifi==2023.11.17,charset-normalizer==3.3.2,docutils==0.20.1,idna==3.6,jmespath==1.0.1,Kivy-Garden==0.1.5,pillow,python-dateutil==2.8.2,requests==2.31.0,s3transfer==0.8.2,urllib3==2.0.7,Pygments==2.17.2
+requirements = python3,kivy==2.2.1,kivymd==1.1.1,boto3==1.33.9,botocore==1.33.9,certifi==2023.11.17,charset-normalizer==3.3.2,docutils==0.20.1,idna==3.6,jmespath==1.0.1,Pillow==10.1.0,plyer==2.1.0,Pygments==2.17.2,PyMySQL==1.1.0,python-dateutil==2.8.2,requests==2.31.0,s3transfer==0.8.2,six==1.16.0,urllib3==2.0.7,dislib==0.3.0
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -108,7 +108,7 @@ android.permissions = android.permission.INTERNET, (name=android.permission.WRIT
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 31
+android.api = 27
 
 # (int) Minimum API your APK / AAB will support.
 #android.minapi = 21
