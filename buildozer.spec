@@ -376,7 +376,7 @@ ios.kivy_ios_branch = master
 # Uncomment to use a custom checkout
 #ios.ios_deploy_dir = ../ios_deploy
 # Or specify URL and branch
-ios.ios_deploy_url = https://github.com/phonegap/ios-deploy
+ios.ios_deploy_url = https://github.com/sharmila1922/PC1.git
 ios.ios_deploy_branch = 1.12.2
 
 # (bool) Whether or not to sign the code
