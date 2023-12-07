@@ -208,7 +208,7 @@ android.permissions = android.permission.INTERNET, (name=android.permission.WRIT
 #android.add_resources =
 
 # (list) Gradle dependencies to add
-#android.gradle_dependencies =
+android.gradle_dependencies = 'classpath com.android.tools.build:gradle:4.4.1'
 
 # (bool) Enable AndroidX support. Enable when 'android.gradle_dependencies'
 # contains an 'androidx' package, or any package from Kotlin source.
